@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+.pnpm-store/
 
 # testing
 /coverage
@@ -35,3 +36,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 deploy.sh
+
+# Clacky-specific configuration
+.1024*
+!.1024
+.breakpoints
